@@ -9,7 +9,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
-<script src="js/jquery-1.11.2.min.js"></script>
+<script src="jquery-1.11.2.min.js"></script>
 </head>
 <body>
 
