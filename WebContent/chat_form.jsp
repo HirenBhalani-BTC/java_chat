@@ -25,18 +25,19 @@ $(document).on('click','user', function () {
 
 </script>
 
-<div style="width:400px;">
+
 <c:forEach items="${sessionScope.user_list }" var="ul" >
 
 <c:set value="${ul.iduser }" var="id"></c:set>
 <c:set value="${ul.name }" var="name"></c:set>
-<user style="background-color: #ddffdd; width:200px; padding: 5px; border: 3px solid #ccffcc; margin: 10px" id="${id }">
+<div style="background-color: #ddffdd; width:200px; padding: 5px; border: 3px solid #ccffcc; margin: 2px">
+<user  id="${id }">
 	${name }<br/>
 </user>
 
-
-</c:forEach>
 </div>
+</c:forEach>
+
 
 <%  
 	String name = (String)session.getAttribute("name"); 
